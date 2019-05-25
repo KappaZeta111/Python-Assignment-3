@@ -1,0 +1,10 @@
+
+
+target = eval(input("Enter target price: "))
+while(True):
+    currentPrice = eval(input("Enter current price: "))
+    if(target<=currentPrice):
+        print("The current price reached the target. Time to sell!")
+        break
+    else:
+        print(end="")
